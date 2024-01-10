@@ -9,7 +9,10 @@ header{
     color: beige;
     
 }
-
+.navbar li a:hover{
+    text-decoration: underline;
+    color: blanchedalmond;
+}
 .navdiv{
     display: flex;
     justify-content: space-between;
@@ -47,17 +50,18 @@ body{
     font-size: 40px;
     font-family: cursive;
 }
-.content pre{
-    font-size: large;
-    color: black;
-    
-}
+
 h1{
     font-size: 40px;
     font-weight: 600;
     font-style: italic;
 }
-
+#about{
+    /*background-color: rgb(154, 154, 223);*/
+    
+    background-color: bisque;
+    
+}
 .content2 h1{
     text-align: center;
 }
@@ -88,4 +92,5 @@ button{
 button:hover{
     background-color: bisque;
     color: lightseagreen;
+    cursor: pointer;
 }
