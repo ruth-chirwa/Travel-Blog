@@ -36,7 +36,7 @@ li{
 }
 body{
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
 .content{
@@ -58,8 +58,12 @@ h1{
 }
 #about{
     /*background-color: rgb(154, 154, 223);*/
-    
-    background-color: bisque;
+    width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
     
 }
 .content2 h1{
@@ -93,4 +97,25 @@ button:hover{
     background-color: bisque;
     color: lightseagreen;
     cursor: pointer;
+}
+
+.item p{
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+  margin-bottom: 5px;
+  
+ 
+  
+
+}
+
+.place{
+   width: 75%;
+   text-align: left;
+}
+
+.price{
+    width: 75%;
+    text-align: right;
 }
